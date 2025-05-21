@@ -12,9 +12,11 @@
 
 function descendingOrder(n){
   //...
-    n.toString()
-    .split('')
-    .sort((a, b) => b -a )
+    result = n.toString()
+
+  return parseInt(
+    result.split('')
+    .sort((a, b) => b - a )
     .join('')
-    return n
+    )
 }
